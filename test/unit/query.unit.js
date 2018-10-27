@@ -4,9 +4,9 @@ var chai = require('chai');
 var sinon = require('sinon');
 var sinonChai = require('sinon-chai');
 
-var cassie = require('../lib/cassie');
-var Query = require('../lib/query');
-var types = require('../lib/types');
+var cassie = require('../../lib/cassie');
+var Query = require('../../lib/query');
+var types = require('../../lib/types');
 
 var expect = chai.expect;
 chai.use(sinonChai);
