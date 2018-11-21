@@ -1205,8 +1205,7 @@ describe('Unit :: Model', function () {
         expect(Model.remove(args)).to.be.an.instanceof(Query);
       });
 
-      // TODO: we should probably not allow the nuking of the entire table
-      it.skip('should throw if no where clause', function () {
+      it('should throw if no where clause', function () {
         var args = {};
         expect(function() {
           Model.remove(args);
